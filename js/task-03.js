@@ -24,6 +24,7 @@ const listMarkup = images
 
 galleryEl.insertAdjacentHTML("afterbegin", listMarkup);
 
+galleryEl.style.listStyle = "none";
 galleryEl.style.display = "flex";
 galleryEl.style.flexDirection = "column";
 galleryEl.style.gap = "24px";
